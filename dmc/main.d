@@ -4,6 +4,6 @@ import std.stdio;
 
 void main(string[] args)
 {
-	writeln("Химик гавнюк?"); ///nonononon
+	writeln("Get out of there"); ///nonononon
 }
 
