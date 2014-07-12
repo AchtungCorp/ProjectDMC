@@ -1,5 +1,0 @@
-﻿module commands;
-
-
-__gshared 
-
