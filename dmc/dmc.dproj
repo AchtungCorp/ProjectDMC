@@ -44,5 +44,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.d" />
+    <Compile Include="commands.d" />
+    <Compile Include="Server.d" />
+    <Compile Include="lua\all.d" />
+    <Compile Include="lua\buffer.d" />
+    <Compile Include="lua\common.d" />
+    <Compile Include="lua\data.d" />
+    <Compile Include="lua\error.d" />
+    <Compile Include="lua\lauxlib.d" />
+    <Compile Include="lua\lua.d" />
+    <Compile Include="lua\luaconf.d" />
+    <Compile Include="lua\lualib.d" />
+    <Compile Include="lua\mixins.d" />
+    <Compile Include="lua\state.d" />
+    <Compile Include="lua\utils.d" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lua\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lua\lua.lib" />
+    <None Include="lua\README.txt" />
   </ItemGroup>
 </Project>
