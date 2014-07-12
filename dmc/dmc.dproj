@@ -44,21 +44,5 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.d" />
-    <Compile Include="luad\all.d" />
-    <Compile Include="luad\base.d" />
-    <Compile Include="luad\dynamic.d" />
-    <Compile Include="luad\error.d" />
-    <Compile Include="luad\lfunction.d" />
-    <Compile Include="luad\lmodule.d" />
-    <Compile Include="luad\stack.d" />
-    <Compile Include="luad\state.d" />
-    <Compile Include="luad\table.d" />
-    <Compile Include="luad\testing.d" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="extlib\COPYRIGHT" />
-    <None Include="extlib\dmc.mak" />
-    <None Include="extlib\lua5.1.lib" />
-    <None Include="extlib\README.md" />
   </ItemGroup>
 </Project>
